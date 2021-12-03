@@ -1,3 +1,6 @@
+
+/* css of first page */
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700&family=Kalam:wght@300;400;700&family=Outfit:wght@100;200;400;600;900&family=PT+Serif:wght@700&family=Raleway:wght@400;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   padding: 0%;
@@ -27,7 +30,7 @@ body::after {
   height: 100vh;
 
 }
-
+/* animation of image */
 @keyframes corntop {
   0% {
     top: -10%;
@@ -192,6 +195,11 @@ body::after {
   animation-direction: alternate;
   opacity: 0.4;
 }
+
+
+/* end of animation image */
+
+/* start text */
 .container-fluid{
   z-index: 1;
   position: absolute;
@@ -217,14 +225,7 @@ text-align: center;
 padding: 2%;
 
 font-family: 'Archivo Black', sans-serif;
-font-family: 'Bai Jamjuree', sans-serif;
-font-family: 'Barlow Semi Condensed', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Kalam', cursive;
-font-family: 'Outfit', sans-serif;
-font-family: 'PT Serif', serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Red Hat Display', sans-serif;
+
 } 
 .first h1{
     font-size: 6rem;
@@ -233,10 +234,6 @@ font-family: 'Red Hat Display', sans-serif;
     color: rgb(252,238,240);
     text-align: center;
 }
-
-
-
-
 
 .text h1{   
 font-size: 7em;
@@ -346,6 +343,10 @@ button, button::after {
       transform: translate(0);
     }
   }
+  /* end text */
+
+
+  /* respansive  */
   @media only screen and (max-width: 800px)
 {
   .first h1{
@@ -407,3 +408,4 @@ button, button::after {
           height: 50px;
       }
 }
+ /* respansive  */
