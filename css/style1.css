@@ -254,3 +254,40 @@ button, button::after {
 
 
 /* end card */
+
+
+
+
+/* start footer */
+.container-fluid{
+background-color: whitesmoke;
+padding: 1%;
+display: flex;
+
+justify-content: center;
+
+}
+
+.textfooter{
+  font-family: 'Archivo Black', sans-serif;
+    font-weight: 200; 
+    color: rgb(252,150,141);
+    font-size: 15px;
+}
+.content2{
+  width: 60%;
+  margin: auto;
+}
+.contact{
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 200; 
+  color: rgb(252,150,141);
+  font-size: 15px;
+  text-decoration: none;
+
+}
+.contact:hover,.home:hover{
+  text-decoration: none;
+
+}
+/* end footer */
