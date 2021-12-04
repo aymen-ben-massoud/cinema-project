@@ -7,6 +7,8 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+/* start navbar */
 .navbar{
     z-index: 1;
     border-radius: 20px 20px 0 0;
@@ -20,12 +22,14 @@ body::after{
     background-image: url('../images/pgpage1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
+    
+    z-index: -1;
    
 }
 .logo{
@@ -72,7 +76,7 @@ color: rgb(37, 150, 190)!important
 }
 
 .navbar{
-    display: flex;
+background-color: 	rgb(245,245,245)!important
  
 }
 .search{
@@ -86,3 +90,40 @@ color: rgb(37, 150, 190)!important
     background-color: white!important
 
 }
+
+/* end of navbar */
+/* start of carsoul */
+.carousel-control-next,.carousel-control-prev{
+    background-color: transparent;
+   border: transparent;
+}
+
+.d-block{
+    height: 60vh;  
+    width: 80vw;
+}
+.ba{
+  
+
+    height: 100vh;
+    background-color: 	rgb(245,245,245);
+    box-shadow: 1px 1px 7px #AAAAAA;
+ 
+}
+.carousel{
+    margin: 5%;
+
+ height: 60vh;  
+ width: 80vw;
+
+
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{   
+   border-radius: 50%;
+   background-color: rgb(252,185,204);
+   opacity: 0.3;
+}
+
+
+/* end of carsoul */
