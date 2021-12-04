@@ -291,3 +291,19 @@ justify-content: center;
 
 }
 /* end footer */
+.top{
+  position: fixed;
+  
+text-align: center;
+	width: 70px;
+ font-size: medium;
+bottom: 0%;
+opacity: 0.2;
+background-color: rgb(252,150,141);
+color: white;
+z-index: 1;
+
+}
+.top a:hover{ 
+  text-decoration: none;
+}
