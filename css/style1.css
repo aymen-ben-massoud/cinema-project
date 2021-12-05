@@ -307,3 +307,8 @@ z-index: 1;
 .top a:hover{ 
   text-decoration: none;
 }
+.model{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
